@@ -3,12 +3,11 @@ const app = "I don't do much."
 kittens= ["Milo", "Otis", "Garfield"];
 
 function destructivelyAppendKitten(name){
-  kittens.push(name);
-  return kittens;
+  return kittens.push(name);
 }
 
 function destructivelyPrependKitten(name){
-
+  return kittens.unshift(name);
 }
 
 function destructivelyRemoveLastKitten(name){
